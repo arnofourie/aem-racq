@@ -1,0 +1,39 @@
+{
+  "variantName": "hero-travel",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-03-10T01:49:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.racq.com.au/travel/travel-insurance",
+    "originPage": "travel insurance product landing page",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "blue-gradient",
+    "density": "spacious",
+    "purpose": "product-hero",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + heading + subtitle + CTA",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "product landing pages",
+      "insurance product pages",
+      "travel service pages"
+    ],
+    "notSuitableFor": [
+      "blog posts",
+      "text-only pages",
+      "minimal hero sections"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/travel/travel-insurance"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-10T01:49:00.000Z"
+  }
+}

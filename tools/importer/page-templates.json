@@ -1,0 +1,174 @@
+{
+  "templates": [
+    {
+      "name": "travel-insurance",
+      "urls": [
+        "https://www.racq.com.au/travel/travel-insurance"
+      ],
+      "description": "Travel insurance product page with coverage options and call-to-action sections",
+      "blocks": [
+        {
+          "name": "hero-travel",
+          "instances": [
+            ".component.banner.banner-internal"
+          ]
+        },
+        {
+          "name": "columns-travel",
+          "instances": [
+            ".column-splitter",
+            ".component.banner.banner-half-width",
+            ".callout-list.callout-list--links"
+          ]
+        },
+        {
+          "name": "cards-travel",
+          "instances": [
+            ".component.promo.key-product-card",
+            ".callout-list.callout-list--keyline",
+            ".container--featured-tiles",
+            ".component.promo.product-card.product-card--image"
+          ]
+        },
+        {
+          "name": "accordion-travel",
+          "instances": [
+            ".component.search-results.faqs"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero Banner",
+          "selector": ".fluid-container--blue-gradient",
+          "style": "blue-gradient",
+          "blocks": [
+            "hero-travel"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "Notification Banner",
+          "selector": ".notification-banner.notification-banner--advice",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            ".notification-banner__theme-container"
+          ]
+        },
+        {
+          "id": "section-3",
+          "name": "Overview Benefits",
+          "selector": ".scrollspy-tabs__tab-content:first-child .column-splitter",
+          "style": null,
+          "blocks": [
+            "columns-travel"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-4",
+          "name": "Policy Options Header",
+          "selector": [
+            ".scrollspy-tabs__tab-content:nth-child(2) .rich-text:first-child"
+          ],
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            ".rich-text h2",
+            ".rich-text p"
+          ]
+        },
+        {
+          "id": "section-5",
+          "name": "Policy Options Cards",
+          "selector": ".fluid-container--pale-blue:has(.key-product-card)",
+          "style": "pale-blue",
+          "blocks": [
+            "cards-travel"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-6",
+          "name": "Why Choose RACQ",
+          "selector": ".callout-list--keyline",
+          "style": null,
+          "blocks": [
+            "cards-travel"
+          ],
+          "defaultContent": [
+            ".callout-list--keyline h2"
+          ]
+        },
+        {
+          "id": "section-7",
+          "name": "Get Your Quote CTA",
+          "selector": ".banner-half-width",
+          "style": null,
+          "blocks": [
+            "columns-travel"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-8",
+          "name": "Manage Your Insurance",
+          "selector": ".container--featured-tiles",
+          "style": null,
+          "blocks": [
+            "cards-travel"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-9",
+          "name": "Contact Us",
+          "selector": ".fluid-container--pale-blue:has(.callout-list--links)",
+          "style": "pale-blue",
+          "blocks": [
+            "columns-travel"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-10",
+          "name": "Travel Insurance FAQs",
+          "selector": ".search-results.faqs",
+          "style": null,
+          "blocks": [
+            "accordion-travel"
+          ],
+          "defaultContent": [
+            ".faqs h2"
+          ]
+        },
+        {
+          "id": "section-11",
+          "name": "Explore More",
+          "selector": ".product-card.product-card--image",
+          "style": null,
+          "blocks": [
+            "cards-travel"
+          ],
+          "defaultContent": [
+            "h2#explore-more"
+          ]
+        },
+        {
+          "id": "section-12",
+          "name": "Disclaimers",
+          "selector": ".fluid-container--pale-blue:has(#ThingsToNote)",
+          "style": "pale-blue",
+          "blocks": [],
+          "defaultContent": [
+            "h3#ThingsToNote",
+            ".rich-text p"
+          ]
+        }
+      ]
+    }
+  ]
+}

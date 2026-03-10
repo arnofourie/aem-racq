@@ -1,0 +1,33 @@
+.columns-travel > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.columns-travel img {
+  width: 100%;
+}
+
+.columns-travel > div > div {
+  order: 1;
+}
+
+.columns-travel > div > .columns-travel-img-col {
+  order: 0;
+}
+
+.columns-travel > div > .columns-travel-img-col img {
+  display: block;
+}
+
+@media (width >= 900px) {
+  .columns-travel > div {
+    align-items: center;
+    flex-direction: unset;
+    gap: 24px;
+  }
+
+  .columns-travel > div > div {
+    flex: 1;
+    order: unset;
+  }
+}

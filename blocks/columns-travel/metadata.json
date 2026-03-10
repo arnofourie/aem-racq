@@ -1,0 +1,38 @@
+{
+  "variantName": "columns-travel",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-03-10T01:49:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.racq.com.au/travel/travel-insurance",
+    "originPage": "travel insurance product landing page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "content-layout",
+    "imagePattern": "mixed"
+  },
+  "contentPattern": {
+    "structure": "text + list | images OR image | text + CTA",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "benefit/feature sections with images",
+      "CTA banners with image and text",
+      "contact sections with side-by-side layout"
+    ],
+    "notSuitableFor": [
+      "grid-based card layouts",
+      "single-column text content"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/travel/travel-insurance"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-10T01:49:00.000Z"
+  }
+}
