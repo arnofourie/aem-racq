@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-travel",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-03-10T01:49:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.racq.com.au/travel/travel-insurance",
+    "originPage": "travel insurance product landing page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "product-cards",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image | heading + description + CTA",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "product comparison cards",
+      "feature highlight grids",
+      "icon tile navigation",
+      "related content cards"
+    ],
+    "notSuitableFor": [
+      "single hero images",
+      "text-only content"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/travel/travel-insurance"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-10T01:49:00.000Z"
+  }
+}

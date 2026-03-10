@@ -1,0 +1,38 @@
+{
+  "variantName": "accordion-travel",
+  "baseBlock": "accordion",
+  "version": "1.0.0",
+  "created": "2026-03-10T01:49:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.racq.com.au/travel/travel-insurance",
+    "originPage": "travel insurance product landing page",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "faq",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "question | answer paragraphs",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "FAQ sections",
+      "expandable Q&A content",
+      "insurance policy questions"
+    ],
+    "notSuitableFor": [
+      "tabbed navigation content",
+      "image galleries"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/travel/travel-insurance"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-10T01:49:00.000Z"
+  }
+}
